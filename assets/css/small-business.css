@@ -1,0 +1,42 @@
+/*!
+ * Start Bootstrap - Small Business (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+/*----------------------------------------------------menu--------------------------------------------------------------------*/
+.navbar-fixed-top .nav {
+    padding: 15px 0;
+}
+
+.navbar-fixed-top .navbar-brand {
+    padding: 0 15px;
+}
+.navbar-brand img{
+  width: 50px;
+	height: 50px;
+	vertical-align: 10px;
+}
+#menu{
+  background-color: rgb(0, 45, 113);
+}
+#menu .container .bs-example-navbar-collapse-1{
+  align-content: center;
+}
+/*----------------------------------------------------menu--------------------------------------------------------------------*/
+/*----------------------------------------------------body-------------------------------------------------------------------*/
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+    background-color: rgb(255, 255, 255);
+}
+
+@media(min-width:768px) {
+    body {
+        padding-top: 100px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+    }
+
+    .navbar-fixed-top .navbar-brand {
+        padding: 15px 0;
+    }
+}
+
+/*----------------------------------------------------body--------------------------------------------------------------------*/

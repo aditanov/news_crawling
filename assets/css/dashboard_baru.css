@@ -1,0 +1,278 @@
+/*--------------------------------------------------diagram-------------------------------------------------------------------*/
+.div-dropdown-download-grafik{
+  width:100%;
+  height:27px;
+/*  border: 1px solid grey;
+  border-bottom-style: none;*/
+}
+
+.div-dropdown-download-grafik2{
+  width:100%;
+  height:27px;
+/*  border: 1px solid grey;
+  border-bottom-style: none;*/
+}
+
+.diagram-top-issue{
+    align-items: left;
+    width: 1200px;
+    height: 300px;
+  /*  border: 1px solid grey;*/
+    padding: 10px;
+    margin: 0px;
+}
+
+.dropbtn , .btn-download-grafik {
+    background-color: rgb(0, 79, 196);
+    color:  white;
+    padding: 5px;
+    font-size: 11px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn2 , .btn-download-grafik2 {
+    background-color: rgb(0, 79, 196);
+    color:  white;
+    padding: 5px;
+    font-size: 11px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    float:right;
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown2 {
+    float:left;
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: white;
+    min-width: 170px;
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content2 {
+    display: none;
+    position: absolute;
+    left: 0;
+    background-color: white;
+    min-width: 170px;
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
+}
+
+
+.dropdown-content a {
+    color: black;
+    font-size: 12px;
+    padding: 8px 10px; /*bottom, width*/
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content2 a {
+    color: black;
+    font-size: 12px;
+    padding: 8px 10px; /*bottom, width*/
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+  background-color:rgb(0, 32, 79);
+  color: white;
+}
+
+.dropdown-content2 a:hover {
+  background-color:rgb(0, 32, 79);
+  color: white;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown2:hover .dropdown-content2 {
+    display: block;
+}
+
+
+.dropdown:hover .dropbtn , .btn-download-grafik:hover{
+    background-color: rgb(0, 32, 79);
+    color: white;
+}
+
+.dropdown2:hover .dropbtn2 , .btn-download-grafik2:hover{
+    background-color: rgb(0, 32, 79);
+    color: white;
+}
+
+/*--------------------------------------------------diagram-------------------------------------------------------------------*/
+/*--------------------------------------------------top news------------------------------------------------------------------*/
+#div-top-news h4{
+  margin-top: 0;
+}
+.ul-top-news{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.ul-top-news li{
+  margin-left: 0.5em;
+  color: rgb(255, 0, 0);
+}
+.ul-top-news hr{
+  margin: 3px;
+}
+
+.img-top-news{
+  width: 100%;
+}
+
+.ul-top-news li a{
+  text-decoration: none;
+  font-size: 11px;
+}
+
+.jdl-hot-news{
+  font-size: 12px;
+  color:black;
+  vertical-align: text-top;
+  padding : 3px 2px 0px 5px;
+  margin: 0;
+}
+
+.time-hot-news{
+  color:rgb(106,181,255);
+  padding: 3px 2px 0px 5px;
+  vertical-align: text-top;
+  margin: 0;
+}
+
+.paragraph-hot-news{
+  color: black;
+}
+/*--------------------------------------------------top news------------------------------------------------------------------*/
+/*--------------------------------------------sebaran berita / maps ----------------------------------------------------------*/
+#sebaran-berita{
+  align:center;
+  height:510px;
+  margin: 0 auto;
+}
+
+.judul-sebaran-berita{
+  width:50%;
+  height:20%;
+/*border: 1px solid black;*/
+  font-size:15px;
+}
+#map{
+  width:95%;
+  height:80%;
+  margin: 0 auto;
+  background-color: #ffffff;
+  opacity: 0.8;
+  filter: alpha(opacity=60);
+}
+/* The Modal (background) */
+.modal { /*modal*/
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 250px; /* Location of the box */
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color:  rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+
+
+.wordcloud {
+border: 1px solid #036;
+height: 7in;
+margin: 0.5in auto;
+padding: 0;
+page-break-after: always;
+page-break-inside: avoid;
+width: 400px;
+height:347px
+}
+
+.wordcloud2 {
+height: 800px;
+margin: 0.5in auto;
+padding: 0;
+page-break-after: always;
+page-break-inside: avoid;
+height:200px;
+float:right:
+}
+
+
+/* Modal Content */
+.content-popup { /*modal-content*/
+    border-radius: 0px;
+    background-color: #fefefe;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 40%;
+}
+.content-popup p{
+  padding-left:10px;
+  padding-bottom: 20px;
+}
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+/*--------------------------------------------sebaran berita / maps ----------------------------------------------------------*/
+/*------------------------------------------------top person------------------------------------------------------------------*/
+.img-top-person{
+  border-radius:100em;
+  opacity:0.5;
+  border:2px solid #ddd;
+  width:100%;
+}
+
+.table-top-person tr td a{
+  text-decoration: none;
+  color: rgb(202, 202, 202);
+}
+/*------------------------------------------------top person------------------------------------------------------------------*/
+/*---------------------------------------------------footer-------------------------------------------------------------------*/
+footer {
+    /*padding: 30px 0;*/
+    background-color: rgb(0, 45, 113);
+    text-align: center;
+     padding: 5px;
+     position:relative;
+     bottom:0;
+     width:100%;
+}
+footer h5{
+  color: rgb(197, 197, 197);
+	font-size: 1em;
+}
+/*--------------------------------------------------footer--------------------------------------------------------------------*/
